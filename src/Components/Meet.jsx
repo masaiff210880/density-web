@@ -17,7 +17,7 @@ const MainSection = styled.div`
 const Header1 = styled.div`
   color: var(--White, #fff);
   text-align: center;
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk',sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 700;
@@ -39,7 +39,7 @@ margin-top: -46px;
 
 const Header2 = styled.div`
   color: var(--electric-green-primary, #ebff25);
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk',sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 700;

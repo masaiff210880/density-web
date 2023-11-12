@@ -13,7 +13,7 @@ const Community = styled.div`
 `;
 const Price = styled.div`
   color: var(--electric-green-primary, #EBFF25);
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -21,11 +21,11 @@ const Price = styled.div`
 `;
 
 const PricingSection = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 80px;
-  margin-top: 5%;
+display: flex;
+column-gap: 2%;
+margin-top: 8%;
+justify-content: space-evenly;
+align-items: center;
 `;
 const PriceCard = styled.div`
   display: flex;
@@ -35,7 +35,7 @@ const PriceCard = styled.div`
 `;
 const Traders = styled.div`
   color: #a9a9a9;
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -47,23 +47,23 @@ const Frame1 = () => {
       <Community>
         <PricingSection>
           <PriceCard>
-            <Price>Same</Price>
-            <Traders>Strategies</Traders>
+            <Price>00%</Price>
+            <Traders>Conversion Fee </Traders>
           </PriceCard>
           <img src={devider} alt="" />
           <PriceCard>
-            <Price>Same</Price>
-            <Traders>Strategies</Traders>
+            <Price>500 Mn+</Price>
+            <Traders>Lifetime Volume Traded</Traders>
           </PriceCard>
           <img src={devider} alt="" />
           <PriceCard>
-            <Price>Better</Price>
-            <Traders>Strategies</Traders>
+            <Price>250+</Price>
+            <Traders>Total Tradable Pairs</Traders>
           </PriceCard>
           <img src={devider} alt="" />
           <PriceCard>
-            <Price>24x7</Price>
-            <Traders>Strategies</Traders>
+            <Price>15,000+</Price>
+            <Traders>Traders</Traders>
           </PriceCard>
         </PricingSection>
       </Community>

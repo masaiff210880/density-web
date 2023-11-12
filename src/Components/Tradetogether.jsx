@@ -20,7 +20,7 @@ const Mainsection = styled.div`
 `;
 const Header1 = styled.p`
   color: var(--White, #fff);
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 700;
@@ -29,7 +29,7 @@ const Header1 = styled.p`
 `;
 const Header2 = styled.span`
   color: var(--electric-green-primary, #ebff25);
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 700;
@@ -43,7 +43,7 @@ const HeaderSection = styled.div`
 `;
 const Info = styled.span`
   color: var(--neutrals-grey-4, #e7e7ea);
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -65,7 +65,7 @@ const Community = styled.div`
 `;
 const Price = styled.div`
 color: var(--White, #FFF);
-font-family: Neurial Grotesk;
+font-family: 'Neurial Grotesk', sans-serif;
 font-size: 32px;
 font-style: normal;
 font-weight: 700;
@@ -73,18 +73,18 @@ line-height: normal;
 `
 const Traders = styled.div`
   color: #A9A9A9;
-font-family: Neurial Grotesk;
+font-family: 'Neurial Grotesk', sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 26px; /* 162.5% */
 `
 const PricingSection = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 80px;
-  margin-top: 5%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+column-gap: 2%;
+margin-top: 6%;
 `
 const PriceCard = styled.div`
   display: flex;
@@ -104,7 +104,7 @@ background: linear-gradient(86deg, #D4F938 23.09%, #32D875 108.69%);
 box-shadow: 0px 0px 16px 0px rgba(168, 239, 156, 0.80);
 backdrop-filter: blur(5px);
 color: #000;
-font-family: Neurial Grotesk;
+font-family: 'Neurial Grotesk', sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;

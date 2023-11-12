@@ -7,12 +7,13 @@ import devider from "../images/devider.png";
 
 const Mainsection = styled.div`
   width: 100%;
+  margin-top: 150px
 `;
 
 const Title = styled.h1`
   color: var(--White, #fff);
   text-align: center;
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 96px;
   font-style: normal;
   font-weight: 700;
@@ -24,7 +25,7 @@ const FutureText = styled.span`
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 96px;
   font-style: normal;
   font-weight: 700;
@@ -35,7 +36,7 @@ const FutureText = styled.span`
 const InformationText = styled.p`
   color: var(--neutrals-grey-4, #e7e7ea);
   text-align: center;
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -58,7 +59,7 @@ const Community = styled.div`
 `;
 const Price = styled.div`
   color: var(--White, #fff);
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -66,11 +67,11 @@ const Price = styled.div`
 `;
 
 const PricingSection = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 80px;
-  margin-top: 5%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+column-gap: 2%;
+margin-top: 6%;
 `;
 const PriceCard = styled.div`
   display: flex;

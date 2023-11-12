@@ -9,7 +9,7 @@ const Mainsection = styled.div`
 const Title = styled.h1`
   color: var(--White, #fff);
   text-align: center;
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;;
   font-size: 96px;
   font-style: normal;
   font-weight: 700;
@@ -21,7 +21,7 @@ const FutureText = styled.span`
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;;
   font-size: 96px;
   font-style: normal;
   font-weight: 700;
@@ -32,7 +32,7 @@ const FutureText = styled.span`
 const InformationText = styled.p`
   color: var(--neutrals-grey-4, #e7e7ea);
   text-align: center;
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -48,16 +48,16 @@ const CenteredImage = styled.img`
 `;
 
 const BackgroundCircle = styled.div`
-  position: absolute;
-  width: 950px;
-  height: 800px;
-  background: radial-gradient(circle, #78e65d, transparent);
-  filter: blur(50px);
-  border-radius: 50%;
-  top: 96%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
+position: absolute;
+width: 950px;
+height: 800px;
+background: radial-gradient(circle,#78e65d,transparent);
+filter: blur(50px);
+border-radius: 50%;
+top: 155%;
+left: 50%;
+transform: translate(-50%,-50%);
+z-index: 1;
 `;
 const Hero = () => {
   return (

@@ -16,7 +16,7 @@ const Mainsection = styled.div`
 const Title = styled.h1`
   color: var(--White, #fff);
   text-align: center;
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 96px;
   font-style: normal;
   font-weight: 700;
@@ -28,7 +28,7 @@ const FutureText = styled.span`
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 96px;
   font-style: normal;
   font-weight: 700;
@@ -62,7 +62,7 @@ const CenteredImage = styled.img`
 
 const InformationText = styled.p`
   color: var(--neutrals-grey-4, #e7e7ea);
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -81,7 +81,7 @@ const NavButton = styled.button`
   box-shadow: 0px 0px 16px 0px rgba(168, 239, 156, 0.8);
   backdrop-filter: blur(5px);
   color: #000;
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 700;
@@ -94,7 +94,7 @@ const NavButton = styled.button`
 
 const StyledDepositText = styled.span`
   color: var(--White, #fff);
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
@@ -103,7 +103,7 @@ const StyledDepositText = styled.span`
 
 const DescriptionText = styled.p`
   color: #a9a9a9;
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;

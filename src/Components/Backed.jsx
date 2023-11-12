@@ -26,7 +26,7 @@ const Mainsection = styled.div`
 const Heading = styled.div`
   color: var(--White, #fff);
   text-align: center;
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 700;
@@ -62,7 +62,7 @@ const AvatarBody = styled.div`
 const AvatarName = styled.div`
   color: var(--White, #fff);
   /* text-align: center; */
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 20.48px;
   font-style: normal;
   font-weight: 700;
@@ -73,7 +73,7 @@ const AvatarName = styled.div`
 `;
 const AvatarPosition = styled.div`
   color: var(--neutrals-grey-7, #808090);
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 12.8px;
   font-style: normal;
   font-weight: 500;

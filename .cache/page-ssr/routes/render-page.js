@@ -5182,24 +5182,24 @@ var f="undefined"!=typeof process&&void 0!==({})&&(({}).REACT_APP_SC_ATTR||({}).
 /***/ }),
 
 /***/ "react-dom/server":
-/*!*****************************************************************************************!*\
-  !*** external "/home/ram/Desktop/Density/density-web/node_modules/react-dom/server.js" ***!
-  \*****************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** external "/home/ram/Desktop/density-web/node_modules/react-dom/server.js" ***!
+  \*********************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/home/ram/Desktop/Density/density-web/node_modules/react-dom/server.js");
+module.exports = require("/home/ram/Desktop/density-web/node_modules/react-dom/server.js");
 
 /***/ }),
 
 /***/ "react":
-/*!************************************************************************************!*\
-  !*** external "/home/ram/Desktop/Density/density-web/node_modules/react/index.js" ***!
-  \************************************************************************************/
+/*!****************************************************************************!*\
+  !*** external "/home/ram/Desktop/density-web/node_modules/react/index.js" ***!
+  \****************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/home/ram/Desktop/Density/density-web/node_modules/react/index.js");
+module.exports = require("/home/ram/Desktop/density-web/node_modules/react/index.js");
 
 /***/ }),
 

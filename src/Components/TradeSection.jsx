@@ -7,11 +7,12 @@ import delta from "../images/delta.png";
 const MainSection = styled.div`
   width: 80%;
   margin: auto;
+  margin-top : 150px
 `;
 const Header1 = styled.div`
   color: var(--White, #fff);
   text-align: center;
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 700;
@@ -20,7 +21,7 @@ const Header1 = styled.div`
 `;
 const Header2 = styled.div`
   color: var(--electric-green-primary, #ebff25);
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 700;
@@ -35,7 +36,7 @@ const HeaderMain = styled.div`
 const Info = styled.div`
   color: var(--neutrals-grey-4, #e7e7ea);
   text-align: center;
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -54,7 +55,7 @@ const Dotted = styled.div`
 `;
 const Heading1 = styled.div`
   color: var(--White, #fff);
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -63,7 +64,7 @@ const Heading1 = styled.div`
 `;
 const Infos = styled.div`
   color: var(--White, #fff);
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -94,7 +95,7 @@ const CardSecond = styled.div`
 `
 const HeadingMiddle = styled.div`
   color: #000;
-font-family: Neurial Grotesk;
+font-family: 'Neurial Grotesk', sans-serif;
 font-size: 40px;
 font-style: normal;
 font-weight: 700;
@@ -103,7 +104,7 @@ letter-spacing: -1.687px;
 `
 const InfosMiddle = styled.div`
   color: #000;
-font-family: Neurial Grotesk;
+font-family: 'Neurial Grotesk', sans-serif;
 font-size: 24px;
 font-style: normal;
 font-weight: 400;

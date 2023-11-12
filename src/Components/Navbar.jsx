@@ -18,7 +18,7 @@ const Navmenus = styled.div`
   width: 60%;
   align-items: center;
   color: #fcfcfc;
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -45,10 +45,10 @@ const NavButton = styled.button`
   box-shadow: 0px 0px 16px 0px rgba(168, 239, 156, 0.8);
   backdrop-filter: blur(5px);
   color: #000;
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 13px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 780;
   line-height: normal;
   text-transform: uppercase;
   border: none;

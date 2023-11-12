@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import bgimg from "../images/notification.png";
-import accimg from "../images/Frame.png";
+import dottedBg from "../images/dotted_bg.png";
+import Te1 from "../images/Te1.png";
 import trade from "../images/doubletradeimg.png";
 import invite from "../images/inviteimg.png";
 import share from "../images/shareimg.png";
@@ -24,7 +25,7 @@ const Notifiction = styled.div`
 const Heading1 = styled.div`
   color: var(--White, #fff);
   text-align: center;
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 700;
@@ -33,7 +34,7 @@ const Heading1 = styled.div`
 `;
 const Heading2 = styled.div`
   color: var(--electric-green-primary, #ebff25);
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 700;
@@ -47,7 +48,7 @@ const Heading = styled.div`
 `;
 const Info = styled.div`
   color: var(--neutrals-grey-4, #e7e7ea);
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -57,46 +58,26 @@ const Info = styled.div`
   align-items: center;
   margin-top: 20px;
 `;
-const Card = styled.div`
-  width: 323px;
-  height: 327px;
-  flex-shrink: 0;
-  /* border: 1px solid white; */
-  background-color: #19191d;
-`;
-const MainCard = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 80px;
-  column-gap: 15px;
-`;
-const CardBg = styled.div`
-  background-image: url(${accimg});
-  width: 100%;
-  height: 60%;
-`;
+
+
+
 const Text = styled.div`
-  width: 220px;
-  color: var(--White, #fff);
-  font-family: Neurial Grotesk;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 40px; /* 125% */
-  letter-spacing: -1px;
-  position: relative;
-  top: 80px;
-  left: 40px;
+width: 220px;
+color: var(--White,#fff);
+font-family: 'Neurial Grotesk',sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: -1px;
+position: relative;
+top: 94px;
+left: -22px;
 `;
-const Image = styled.img`
-  position: relative;
-  left: 30px;
-  top: 25px;
-`;
+
 const Button = styled.button`
   color: #000;
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -116,6 +97,61 @@ const Button = styled.button`
   margin: auto;
   margin-top: 80px;
 `;
+
+
+
+
+
+const Image = styled.img`
+margin-left: -24px;
+margin-top: -71px;
+`;
+
+
+
+const Card = styled.div`
+background-image: url(${Te1});
+background-color: #19191d;
+  width: 368px;
+  height: 372px;
+ 
+`;
+const Dotted = styled.div`
+  background-image: url(${dottedBg});
+  height: 310px;
+  border: .1px solid #0f0f12;
+  width: 282px;
+`;
+
+
+const CardBody = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  row-gap: 50px;
+  margin-top: 80px;
+`;
+const MainCard = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  margin-top: 80px;
+`
+
+
+
+
+
+const FirstDiv = styled.div`
+padding: 140px 0px
+display: flex;
+`;
+
+
+
 const Earnmoney = () => {
   return (
     <MainSection>
@@ -129,30 +165,51 @@ const Earnmoney = () => {
         </Heading>
         <Info>No Complexity of Trading Fee, generate volume and win</Info>
       </div>
+     
+
       <MainCard>
         <Card>
-          <CardBg>
-            <div>
-              <Image src={share} alt="" width={"40%"} />
-              <Text>Share your your referral link</Text>
-            </div>
-          </CardBg>
+          <Dotted>
+            <CardBody>
+              <FirstDiv>
+                <div>
+                  <Image src={share} alt="" width={"40%"} />
+                  <Text>Share your your referral link</Text>
+                </div>
+
+              </FirstDiv>
+
+            </CardBody>
+          </Dotted>
+          
         </Card>
         <Card>
-          <CardBg>
+          <Dotted>
+            <CardBody>
+            <FirstDiv>
             <div>
               <Image src={invite} alt="" width={"40%"} />
               <Text>Invite Friends to Trade on Density</Text>
             </div>
-          </CardBg>
+              </FirstDiv>
+
+            </CardBody>
+          </Dotted>
+          
         </Card>
         <Card>
-          <CardBg>
+          <Dotted>
+            <CardBody>
+            <FirstDiv>
             <div>
               <Image src={trade} alt="" width={"35%"} />
-              <Text>Trade and Earn</Text>
+              <Text>Trade <br />and Earn</Text>
             </div>
-          </CardBg>
+              </FirstDiv>
+
+            </CardBody>
+          </Dotted>
+          
         </Card>
       </MainCard>
       <Button>start earning now</Button>

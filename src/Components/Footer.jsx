@@ -41,7 +41,7 @@ const Attributres = styled.div`
   width: 60%;
   margin: auto;
   color: var(--White, #fff);
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 13.998px;
   font-style: normal;
   font-weight: 400;
@@ -51,7 +51,7 @@ const Attributres = styled.div`
 const Text = styled.div`
   color: #ddd;
   text-align: center;
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 13.998px;
   font-style: normal;
   font-weight: 400;

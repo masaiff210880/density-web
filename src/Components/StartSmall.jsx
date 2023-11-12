@@ -24,12 +24,12 @@ letter-spacing: -2.097px;
 
 `;
 const HeadingFirst1 =styled.h1`
-color: var(--Black, #0E0E0F);
-font-family: 'Neurial Grotesk', sans-serif;
+color: var(--Black,#0E0E0F);
+font-family: 'Neurial Grotesk',sans-serif;
 font-size: 32px;
 font-style: normal;
+margin-top: -140px;
 font-weight: 700;
-
 
 
 `
@@ -88,16 +88,16 @@ const MainCard = styled.div`
 `
 const CardSecond = styled.div`
 width: 520px;
-height: 567px;
-  padding :50px;
-  margin-right:10px;
-  margin-bottom: 30px;
-  background: #eeefee;
+height: 383px;
+padding: 50px;
+margin-right: 10px;
+margin-bottom: 30px;
+background: #eeefee;
   
 `
 const CardSecond1 = styled.div`
 width: 520px;
-height: 567px;
+height: 383px;
 padding: 50px;
 margin-right: 10px;
 margin-bottom: 30px;

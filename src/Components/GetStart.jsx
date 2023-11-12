@@ -3,12 +3,14 @@ import styled from "styled-components";
 import mobile_bg from "../images/getstarted_bg.png";
 import vector_image from "../images/vector_image.png";
 import logo from "../images/density_logo.png";
+import Get from "../images/Get.png";
 const Header = styled.div`
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 132.195px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-bottom: 35px;
   letter-spacing: -2.783px;
   background: linear-gradient(
     177deg,
@@ -59,7 +61,7 @@ gap: 6.958px;
 flex-shrink: 0;
 background: linear-gradient(269deg, #D4F938 38.89%, rgba(50, 216, 117, 0.96) 103.19%);
 color: #000;
-font-family: Neurial Grotesk;
+font-family: 'Neurial Grotesk', sans-serif;
 font-size: 38.267px;
 font-style: normal;
 font-weight: 700;
@@ -77,7 +79,9 @@ const Logo = styled.div`
 const GetStart = () => {
   return (
     <MainSection>
-      <Header>Get started now.</Header>
+      <Header>
+        <img src={Get} alt="Get" />
+      </Header>
       <MobileSection>
         <Image>
           <Logo><img src={logo} alt="logo" /></Logo>

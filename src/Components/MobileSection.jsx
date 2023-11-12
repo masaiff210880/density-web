@@ -16,20 +16,20 @@ const ChildDiv = styled.div`
   position: relative;
 `;
 const Topcontent = styled.div`
-      position: absolute;
-    top: 117px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 60px;
-    left: 15px;
+position: absolute;
+top: 88px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+row-gap: 82px;
+left: 5px;
 `;
 
 const Text = styled.div`
   color: var(--White, #fff);
   text-align: center;
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 33.501px;
   font-style: normal;
   font-weight: 300;
@@ -40,7 +40,7 @@ const Text = styled.div`
 const TextLast = styled.div`
   color: var(--White, #fff);
   text-align: center;
-  font-family: Neurial Grotesk;
+  font-family: 'Neurial Grotesk', sans-serif;
   font-size: 33.501px;
   font-style: normal;
   font-weight: 300;
